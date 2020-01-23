@@ -1,0 +1,5 @@
+package di.etc;
+//멤버변수가 List나 Map인 경우DI를 어떻게 적용하나?
+public class CollectionTest {
+
+}

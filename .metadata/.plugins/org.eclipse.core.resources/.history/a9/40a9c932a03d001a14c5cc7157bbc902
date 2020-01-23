@@ -1,0 +1,20 @@
+package di.etc;
+//멤버변수가 List나 Map인 경우DI를 어떻게 적용하나?
+//멤버변수에 추가된 List나 Map의 데이터는 xml에서 추가
+import java.util.ArrayList;
+import java.util.HashMap;
+
+public class CollectionTest {
+	private ArrayList<String> list;
+	private HashMap<String, String> map;
+	public void setList(ArrayList<String> list) {
+		this.list = list;
+	}
+	public void setMap(HashMap<String, String> map) {
+		this.map = map;
+	}
+	//ArrayList에 저장된 데이터 출력하기
+	public void getList() {
+		
+	}
+}

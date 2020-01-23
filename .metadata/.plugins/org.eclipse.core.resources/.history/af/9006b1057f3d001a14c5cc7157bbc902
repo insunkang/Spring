@@ -1,0 +1,9 @@
+package book.exam;
+
+public interface TVStyle {
+	void On();
+	void Off();
+	void Up();
+	void Down();
+	
+}

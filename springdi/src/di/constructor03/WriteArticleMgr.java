@@ -1,0 +1,18 @@
+package di.constructor03;
+
+public class WriteArticleMgr implements IWriteArticleMgr {
+	IArticleDAO articleDAO;
+	
+	public WriteArticleMgr(IArticleDAO articleDAO) {
+		super();
+		this.articleDAO = articleDAO;
+		
+	}
+
+	@Override
+	public void write(ArticleDTO article) {
+		System.out.println("dsdfs");
+		articleDAO.insert(article);
+	}
+
+}

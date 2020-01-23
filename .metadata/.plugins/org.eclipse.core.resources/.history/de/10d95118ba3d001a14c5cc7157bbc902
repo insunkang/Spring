@@ -1,0 +1,8 @@
+package firstexam;
+
+import org.springframework.stereotype.Repository;
+
+@Repository("jobdao")
+public class JobDAO {
+
+}

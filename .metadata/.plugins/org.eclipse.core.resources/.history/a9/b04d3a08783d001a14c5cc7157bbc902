@@ -1,0 +1,11 @@
+package di.constructor02;
+
+public class ServiceImpl implements Service {
+
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

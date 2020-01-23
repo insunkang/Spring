@@ -1,0 +1,14 @@
+package di.constructor02;
+
+public class ServiceImpl implements Service {
+	logic myLogic;
+	String name;
+	String msg;
+	
+	@Override
+	public void test() {
+		myLogic.testlogic();
+
+	}
+
+}

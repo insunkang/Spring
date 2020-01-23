@@ -1,0 +1,32 @@
+package book.exam;
+
+public class SamsungTV implements TV {
+	SonySpeaker speak = new SonySpeaker();
+		
+		
+	
+	public SamsungTV(SonySpeaker speak) {
+		super();
+		this.speak = speak;
+	}
+
+	public void On() {
+		System.out.println("SamsungTV---전원 켠다.");
+	}
+
+	public void Off() {
+		System.out.println("SamsungTV---전원 끈다.");
+	}
+
+	public void Up() {
+		
+		System.out.println("SamsungTV---소리 올린다.");
+		speak.Up();
+		
+	}
+
+	public void Down() {
+		System.out.println("SamsungTV---소리 내린다.");
+		speak.Down();
+	}
+}

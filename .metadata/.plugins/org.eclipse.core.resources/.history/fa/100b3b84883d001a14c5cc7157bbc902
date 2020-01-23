@@ -1,0 +1,28 @@
+package di.constructor03;
+
+import org.springframework.context.support.AbstractApplicationContext;
+import org.springframework.context.support.GenericXmlApplicationContext;
+import org.springframework.core.io.WritableResource;
+
+import book.exam.TV;
+import di.constructor.basic.Insa;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		ArticleDTO a = new  ArticleDTO();
+		a.setTitle("title");
+		a.setName("name");
+		a.setDate("date");
+		a.setContent("content");
+		
+		AbstractApplicationContext factory = 
+				new GenericXmlApplicationContext("config/bean.xml");
+		WriteArticleMgr MGR = factory.getBean("MGR", WriteArticleMgr.class);
+		
+		MGR.write(a);
+		
+		
+	}
+
+}

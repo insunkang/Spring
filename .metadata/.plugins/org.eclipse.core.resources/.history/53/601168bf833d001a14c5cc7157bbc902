@@ -1,0 +1,10 @@
+package di.constructor03;
+
+public class WriteArticleMgr {
+	
+	
+	
+	public void write(ArticleDTO article) {		
+		System.out.println("WriteArticleMgr---write."+article.getName());
+	}
+}

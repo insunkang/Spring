@@ -1,0 +1,9 @@
+package book.exam;
+
+public interface Speaker {
+
+	void Up();
+
+	void Down();
+
+}

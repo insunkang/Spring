@@ -1,0 +1,12 @@
+package firstexam;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+@Repository("jobdao")
+public class JobDAO {
+	@Autowired
+	JdbcTemplate mytemplate;
+	//job테이블의 레코드를 리턴하는 메소드
+	
+}

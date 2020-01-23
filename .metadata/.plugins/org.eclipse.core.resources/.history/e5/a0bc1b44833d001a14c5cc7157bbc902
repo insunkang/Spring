@@ -1,0 +1,7 @@
+package di.constructor03;
+
+public class OracleArticleDAO {
+	public void insert() {
+		System.out.println("OracleArticleDAO---insert.");
+	}
+}

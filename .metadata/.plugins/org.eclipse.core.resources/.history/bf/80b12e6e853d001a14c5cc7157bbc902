@@ -1,0 +1,8 @@
+package di.constructor03;
+
+public class OracleArticleDAO {
+	ArticleDTO article;
+	public void insert(ArticleDTO article) {
+		System.out.println("OracleArticleDAO---insert."+article.getName());
+	}
+}

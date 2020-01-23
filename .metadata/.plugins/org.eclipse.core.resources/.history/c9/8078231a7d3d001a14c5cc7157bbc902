@@ -1,0 +1,5 @@
+package book.exam;
+
+public interface AbstractSpeaker extends Speaker {
+  
+}

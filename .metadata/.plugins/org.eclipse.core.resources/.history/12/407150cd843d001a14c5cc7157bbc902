@@ -1,0 +1,10 @@
+package di.constructor03;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		ArticleDTO a = new  ArticleDTO();
+
+	}
+
+}

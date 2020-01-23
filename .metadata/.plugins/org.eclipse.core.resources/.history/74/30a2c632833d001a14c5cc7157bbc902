@@ -1,0 +1,9 @@
+package di.constructor03;
+
+public class MysqlArticleDAO {
+	ArticleDTO article;
+	public void insert(ArticleDTO article) {
+		String a = article.getName();
+		System.out.println("MysqlArticleDAO---insert.");
+	}
+}

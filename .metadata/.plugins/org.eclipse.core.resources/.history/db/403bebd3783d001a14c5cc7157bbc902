@@ -1,0 +1,11 @@
+package di.constructor02;
+
+public class logicImpl implements logic {
+
+	@Override
+	public void testlogic() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}
