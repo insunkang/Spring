@@ -1,2 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+<typeInfo handle="=springdi/src&lt;di.constructor02{Service.java[Service" modifiers="513" timestamp="1579739434054"/>
+<typeInfo handle="=springdi/src&lt;di.constructor02{logic.java[logic" modifiers="513" timestamp="1579739622514"/>
+<typeInfo handle="=springdi/src&lt;di.constructor03{IArticleDAO.java[IArticleDAO" modifiers="513" timestamp="1579744496542"/>
+<typeInfo handle="=springdi/src&lt;di.constructor03{IWriteArticleMgr.java[IWriteArticleMgr" modifiers="513" timestamp="1579744988817"/>
+</typeInfoHistroy>
